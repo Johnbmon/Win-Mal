@@ -26,12 +26,8 @@ Het demonstreert bestandsversleuteling, command-and-control communicatie, en ran
 
 🔐 Encryptiemechanisme:
 Sleutel gebaseerd op random key + salt van hostname
-
 AES in EAX-mode (met integriteitscontrole)
-
 Bestanden worden overschreven met de versleutelde inhoud
-
-
 
 📡 Command & Control Logica:
 POST elke 5 minuten naar:
@@ -52,33 +48,23 @@ kill	Verwijdert het scriptbestand
 
 🧪 Veilig testen:
 Gebruik altijd een offline Windows VM
-
 Pas pad aan naar bijv. ./testfolder voor dummydata
-
 Gebruik snapshots/herstelpunten
-
 Voeg logging toe voor inzicht
 
 
 
 📁 Bestandsoverzicht:
-heavyshit.txt: hoofdscript met payload
-
+C2WinMal.py: hoofdscript met payload
 RANSOM.txt: waarschuwingstekst voor het slachtoffer
-
-
 
 📜 Juridische disclaimer:
 Deze code is uitsluitend bedoeld voor:
 
 Cybersecurity educatie
-
 Malware-analyse
-
 Forensisch onderzoek
-
 Red team simulaties in geautoriseerde omgevingen
-
 Gebruik voor kwaadaardige doeleinden is strafbaar.
 
 
